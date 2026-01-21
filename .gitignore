@@ -1,0 +1,19 @@
+﻿# Python
+__pycache__/
+*.pyc
+venv/
+
+# FastF1 cache
+backend/ml/cache/
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# logs
+*.log
+
+# Optional: ignore data + model
+backend/ml/*.pkl
+backend/ml/data.csv
